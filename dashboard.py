@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
  
 # Header
-st.header('Nugroho :sparkles:')
+st.header('Fairuz :sparkles:')
 st.subheader('Plot')
  
 x = np.linspace(-2 * np.pi, 2 * np.pi, 1000)  # Generating x values from -2*pi to 2*pi
@@ -56,4 +56,4 @@ with col2:
  
     st.pyplot(fig)  
  
-st.caption('Copyright © Nugroho Adi Pramono 2023')
+st.caption('Copyright © Fairuz Nisa 2023')
