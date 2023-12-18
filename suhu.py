@@ -8,15 +8,14 @@ st.subheader('Plot')
 
 c1, c2 = st.columns(2)
 
-
 with c1:
-    x=st.number_input('Suhu ', value=100)
+    x = st.number_input('Suhu ', value=100)
     st.write('Dikonversi ke: ')
 with c2:
     satuan = st.selectbox(
         'Satuan',
         ('C', 'F', 'R', 'K'), key='k1')
-    konversi=st.selectbox(
+    konversi = st.selectbox(
         'Konversi',
         ('C', 'F', 'R', 'K'), key='k2')
 
