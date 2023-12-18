@@ -6,8 +6,8 @@ import streamlit as st
 st.header('Fairuz :sparkles:')
 st.subheader('Plot')
 
-nama = st.text_input('Nama', 'Fairuz', label_visibility='collapsed')
-st.write('Halo ', nama)
+nama = st.text_input('nama', 'anan', label_visibility='collapsed')
+st.write('Halo', nama)
 
 f1 = st.number_input('f1 = ', value=1)
 f2 = st.number_input('f2 = ', value=1)
